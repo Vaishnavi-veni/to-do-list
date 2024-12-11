@@ -72,7 +72,7 @@ class TodoListScreen extends StatelessWidget {
   }
 }
 
-// Section Header Widget
+
 class SectionHeader extends StatelessWidget {
   final String title;
 

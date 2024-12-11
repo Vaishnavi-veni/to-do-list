@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get_storage/get_storage.dart';
 import 'package:to_do_list_project/screen/todo_list_screen.dart';
 
-void main() {
+Future<void> main() async {
+    await GetStorage.init();
+
   runApp( MyApp());
 }
 
