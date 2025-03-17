@@ -35,7 +35,7 @@ class TodoListScreen extends StatelessWidget {
             return Expanded(
               child: ListView(
                 padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                children: [
+                children: [  
                   // Pending Tasks Header
                   if (pendingTasks.isNotEmpty)
                     SectionHeader(title: 'Pending Tasks'),
